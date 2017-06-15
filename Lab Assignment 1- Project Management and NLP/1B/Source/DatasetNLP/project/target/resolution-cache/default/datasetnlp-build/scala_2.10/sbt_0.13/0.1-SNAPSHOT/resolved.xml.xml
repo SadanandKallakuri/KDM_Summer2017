@@ -4,7 +4,7 @@
 		module="datasetnlp-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170613210307"
+		publication="20170614193428"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

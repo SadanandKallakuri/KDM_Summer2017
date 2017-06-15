@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tutorial-3-corenlp.iml" filepath="$PROJECT_DIR$/.idea/modules/tutorial-3-corenlp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tutorial-3-corenlp-build.iml" filepath="$PROJECT_DIR$/.idea/modules/tutorial-3-corenlp-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab1a-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/lab1a-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab1a-scala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lab1a-scala-build.iml" />
     </modules>
   </component>
 </project>

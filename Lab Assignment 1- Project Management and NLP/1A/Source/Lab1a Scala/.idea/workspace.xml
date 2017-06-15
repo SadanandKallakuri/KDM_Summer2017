@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,15 +185,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Tutorial-3-CoreNLP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -563,7 +563,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1497383723148" />
+    <option name="lastUpdateTimestamp" value="1497413896522" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -576,11 +576,11 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="tutorial-3-corenlp" />
+                <option name="name" value="lab1a-scala" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="tutorial-3-corenlp-build" />
+                <option name="name" value="lab1a-scala-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -590,10 +590,10 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$USER_HOME$/Downloads/Spark20NewsGroup-master/Spark20NewsGroup-master" value="1420306554000" />
         <entry key="$PROJECT_DIR$/../../CS5542/Tutorial5/Spark WordCount" value="1441857940982" />
         <entry key="$PROJECT_DIR$/../../CS5542/Tutorial6/SparkMachineLearnin" value="1436877998000" />
         <entry key="$PROJECT_DIR$/../../Fall 2015 Research/BigBrainBot" value="1442861285619" />
-        <entry key="$USER_HOME$/Downloads/Spark20NewsGroup-master/Spark20NewsGroup-master" value="1420306554000" />
         <entry key="F:/IntelliJ/BigBrainBot-master" value="1439924569410" />
         <entry key="F:/IntelliJ/BigBrainBot_from_Linux" value="1440884153060" />
         <entry key="G:/Dropbox/2016 Spring/CS5542-BigDataAnalytics/Tutorial/Tutorial 5/Spark Streaming and Phone Connection/Tutorial 5 - Spark to iOS/Spark WordCount" value="1441857940982" />
@@ -638,7 +638,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1009772" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102605864" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -710,11 +710,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SimpleCoreNLP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,14 +820,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

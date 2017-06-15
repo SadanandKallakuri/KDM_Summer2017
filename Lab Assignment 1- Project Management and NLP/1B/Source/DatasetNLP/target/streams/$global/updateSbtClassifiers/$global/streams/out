@@ -42,7 +42,6 @@
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.8->org.scala-sbt#classpath;0.13.8 [compile->default(compile)]
 [info] Resolving org.scala-sbt#classpath;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classpath;0.13.8 {compile=[default(compile)]}
-[debug] no default cache defined: set to C:\Users\sadan\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classpath;0.13.8
 [debug] 	found org.scala-sbt#classpath;0.13.8 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#classpath;0.13.8->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)]
@@ -154,7 +153,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (231ms)
+[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (78ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -724,9 +723,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 1523ms :: artifacts dl 16ms
-[debug] 	report for lab1#lab1$sbt_2.11;1.0 default produced in C:\Users\sadan\Desktop\KDM\CS5560 - T2 (Introduction to CoreNLP) SourceCode\DatasetNLP\target\resolution-cache\reports\lab1-lab1$sbt_2.11-default.xml
-[debug] 	resolve done (1523ms resolve - 16ms download)
+[debug] :: resolution report :: resolve 2830ms :: artifacts dl 32ms
+[debug] 	report for lab1#lab1$sbt_2.11;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 1- Project Management and NLP\1B\Source\DatasetNLP\target\resolution-cache\reports\lab1-lab1$sbt_2.11-default.xml
+[debug] 	resolve done (2830ms resolve - 32ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: lab1#lab1$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1090,6 +1089,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 145ms :: artifacts dl 32ms
-[debug] 	report for lab1#lab1$sources_2.11;1.0 default produced in C:\Users\sadan\Desktop\KDM\CS5560 - T2 (Introduction to CoreNLP) SourceCode\DatasetNLP\target\resolution-cache\reports\lab1-lab1$sources_2.11-default.xml
-[debug] 	resolve done (145ms resolve - 32ms download)
+[debug] :: resolution report :: resolve 100ms :: artifacts dl 22ms
+[debug] 	report for lab1#lab1$sources_2.11;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 1- Project Management and NLP\1B\Source\DatasetNLP\target\resolution-cache\reports\lab1-lab1$sources_2.11-default.xml
+[debug] 	resolve done (100ms resolve - 22ms download)

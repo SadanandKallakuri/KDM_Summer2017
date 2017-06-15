@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170613210322"/>
+		date="20170614193446"/>
 	<dependencies>
 		<module organisation="edu.stanford.nlp" name="stanford-corenlp">
 			<revision name="3.6.0" status="release" pubdate="20160121031639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nlp.stanford.edu/software/corenlp.shtml" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
@@ -49,7 +49,7 @@
 		<module organisation="com.googlecode.efficient-java-matrix-library" name="ejml">
 			<revision name="0.23" status="release" pubdate="20130621111625" resolver="public" artresolver="public" homepage="http://code.google.com/p/efficient-java-matrix-library/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="LGPL" url="http://www.gnu.org/copyleft/lesser.html"/>
-				<metadata-artifact status="successful" details="" size="2358" time="131" location="C:\Users\sadan\.ivy2\cache\com.googlecode.efficient-java-matrix-library\ejml\ivy-0.23.xml" searched="true" original-local-location="C:\Users\sadan\.ivy2\cache\com.googlecode.efficient-java-matrix-library\ejml\ivy-0.23.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom"/>
+				<metadata-artifact status="successful" details="" size="2358" time="78" location="C:\Users\sadan\.ivy2\cache\com.googlecode.efficient-java-matrix-library\ejml\ivy-0.23.xml" searched="true" original-local-location="C:\Users\sadan\.ivy2\cache\com.googlecode.efficient-java-matrix-library\ejml\ivy-0.23.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="0.23" rev-constraint-default="0.23" rev-constraint-dynamic="0.23" callerrev="3.6.0"/>
 				<artifacts>
 					<artifact name="ejml" type="jar" ext="jar" status="no" details="" size="301506" time="0" location="C:\Users\sadan\.ivy2\cache\com.googlecode.efficient-java-matrix-library\ejml\jars\ejml-0.23.jar">
@@ -61,7 +61,7 @@
 		<module organisation="de.jollyday" name="jollyday">
 			<revision name="0.4.7" status="release" pubdate="20121104180012" resolver="public" artresolver="public" homepage="http://sourceforge.net/projects/jollyday" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6624" time="169" location="C:\Users\sadan\.ivy2\cache\de.jollyday\jollyday\ivy-0.4.7.xml" searched="true" original-local-location="C:\Users\sadan\.ivy2\cache\de.jollyday\jollyday\ivy-0.4.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.7/jollyday-0.4.7.pom"/>
+				<metadata-artifact status="successful" details="" size="6624" time="78" location="C:\Users\sadan\.ivy2\cache\de.jollyday\jollyday\ivy-0.4.7.xml" searched="true" original-local-location="C:\Users\sadan\.ivy2\cache\de.jollyday\jollyday\ivy-0.4.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.7/jollyday-0.4.7.pom"/>
 				<caller organisation="edu.stanford.nlp" name="stanford-corenlp" conf="default, compile, runtime, master" rev="0.4.7" rev-constraint-default="0.4.7" rev-constraint-dynamic="0.4.7" callerrev="3.6.0"/>
 				<artifacts>
 					<artifact name="jollyday" type="jar" ext="jar" status="no" details="" size="200993" time="0" location="C:\Users\sadan\.ivy2\cache\de.jollyday\jollyday\jars\jollyday-0.4.7.jar">

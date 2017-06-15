@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tutorial-3-corenlp.iml" filepath="$PROJECT_DIR$/.idea/modules/tutorial-3-corenlp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tutorial-3-corenlp-build.iml" filepath="$PROJECT_DIR$/.idea/modules/tutorial-3-corenlp-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qna.iml" filepath="$PROJECT_DIR$/.idea/modules/qna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qna-build.iml" filepath="$PROJECT_DIR$/.idea/modules/qna-build.iml" />
     </modules>
   </component>
 </project>

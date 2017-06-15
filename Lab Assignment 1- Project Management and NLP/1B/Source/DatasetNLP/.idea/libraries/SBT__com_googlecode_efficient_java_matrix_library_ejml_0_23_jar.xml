@@ -3,9 +3,11 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.ivy2/cache/com.googlecode.efficient-java-matrix-library/ejml/jars" />
       <root url="jar://$PROJECT_DIR$/../../commons-io-2.5/commons-io-2.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/KDM/commons-io-2.5/commons-io-2.5.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../commons-io-2.5/commons-io-2.5-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/KDM/commons-io-2.5/commons-io-2.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.ivy2/cache/com.googlecode.efficient-java-matrix-library/ejml/srcs/ejml-0.23-sources.jar!/" />

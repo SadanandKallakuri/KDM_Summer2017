@@ -9,7 +9,7 @@
 		extra-sbtVersion="0.13"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170613210307"/>
+		date="20170614193428"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.8" status="release" pubdate="20150320121147" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
@@ -540,7 +540,7 @@
 		<module organisation="jline" name="jline">
 			<revision name="2.11" status="release" pubdate="20130519140100" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="13">
 				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="successful" details="" size="16867" time="253" location="C:\Users\sadan\.ivy2\cache\jline\jline\ivy-2.11.xml" searched="true" original-local-location="C:\Users\sadan\.ivy2\cache\jline\jline\ivy-2.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom"/>
+				<metadata-artifact status="successful" details="" size="16867" time="131" location="C:\Users\sadan\.ivy2\cache\jline\jline\ivy-2.11.xml" searched="true" original-local-location="C:\Users\sadan\.ivy2\cache\jline\jline\ivy-2.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom"/>
 				<caller organisation="org.scala-sbt" name="completion" conf="compile" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.13.8"/>
 				<caller organisation="org.scala-sbt" name="logging" conf="compile" rev="2.11" rev-constraint-default="2.11" rev-constraint-dynamic="2.11" callerrev="0.13.8"/>
 				<artifacts>

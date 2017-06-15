@@ -34,7 +34,7 @@ public class Main {
     }
     public static void main(String[] args) {
         System.out.println("Starting Stanford POS");
-        String text = "This is a simple pos tagger program";
+        String text = "who where when how what which";
         Main slem = new Main();
         System.out.println(slem.pos(text));
     }

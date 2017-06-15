@@ -24,7 +24,6 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-sbt#main;0.13.8 [compile->default(compile)]
 [info] Resolving org.scala-sbt#main;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.8 {compile=[default(compile)]}
-[debug] no default cache defined: set to C:\Users\sadan\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.8
 [debug] 	found org.scala-sbt#main;0.13.8 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#main;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -154,7 +153,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (100ms)
+[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (218ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -724,9 +723,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 1286ms :: artifacts dl 34ms
+[debug] :: resolution report :: resolve 4425ms :: artifacts dl 31ms
 [debug] 	report for tutorial-3-corenlp#tutorial-3-corenlp$sbt_2.11;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 1- Project Management and NLP\1A\Source\Lab1a Scala\target\resolution-cache\reports\tutorial-3-corenlp-tutorial-3-corenlp$sbt_2.11-default.xml
-[debug] 	resolve done (1286ms resolve - 34ms download)
+[debug] 	resolve done (4425ms resolve - 31ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: tutorial-3-corenlp#tutorial-3-corenlp$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1090,6 +1089,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 173ms :: artifacts dl 36ms
+[debug] :: resolution report :: resolve 251ms :: artifacts dl 58ms
 [debug] 	report for tutorial-3-corenlp#tutorial-3-corenlp$sources_2.11;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 1- Project Management and NLP\1A\Source\Lab1a Scala\target\resolution-cache\reports\tutorial-3-corenlp-tutorial-3-corenlp$sources_2.11-default.xml
-[debug] 	resolve done (173ms resolve - 36ms download)
+[debug] 	resolve done (251ms resolve - 58ms download)

@@ -4,7 +4,7 @@
 		module="tutorial-3-corenlp$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170613231812"
+		publication="20170614201958"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

@@ -153,7 +153,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (301ms)
+[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (234ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -723,9 +723,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 12735ms :: artifacts dl 1048ms
+[debug] :: resolution report :: resolve 7602ms :: artifacts dl 44ms
 [debug] 	report for tutorial-3-corenlp#tutorial-3-corenlp$sbt_2.11;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 1- Project Management and NLP\1B\Source\QnA\target\resolution-cache\reports\tutorial-3-corenlp-tutorial-3-corenlp$sbt_2.11-default.xml
-[debug] 	resolve done (12735ms resolve - 1048ms download)
+[debug] 	resolve done (7602ms resolve - 44ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: tutorial-3-corenlp#tutorial-3-corenlp$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1089,6 +1089,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 398ms :: artifacts dl 47ms
+[debug] :: resolution report :: resolve 284ms :: artifacts dl 46ms
 [debug] 	report for tutorial-3-corenlp#tutorial-3-corenlp$sources_2.11;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 1- Project Management and NLP\1B\Source\QnA\target\resolution-cache\reports\tutorial-3-corenlp-tutorial-3-corenlp$sources_2.11-default.xml
-[debug] 	resolve done (398ms resolve - 47ms download)
+[debug] 	resolve done (284ms resolve - 46ms download)

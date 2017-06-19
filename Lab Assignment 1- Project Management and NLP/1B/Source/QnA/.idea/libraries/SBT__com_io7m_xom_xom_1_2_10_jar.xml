@@ -2,8 +2,11 @@
   <library name="SBT: com.io7m.xom:xom:1.2.10:jar">
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/com.io7m.xom/xom/jars/xom-1.2.10.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/KDM/commons-io-2.5/commons-io-2.5.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/KDM/commons-io-2.5/commons-io-2.5-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.ivy2/cache/com.io7m.xom/xom/srcs/xom-1.2.10-sources.jar!/" />
     </SOURCES>

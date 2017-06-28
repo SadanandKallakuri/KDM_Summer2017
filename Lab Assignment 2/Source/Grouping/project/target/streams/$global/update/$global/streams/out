@@ -1,29 +1,29 @@
-[info] Updating {file:/C:/Users/sadan/Desktop/KDM%20LA/2/lab2/project/}lab2-build...
-[debug] :: resolving dependencies :: default#lab2-build;0.1-SNAPSHOT
+[info] Updating {file:/C:/Users/sadan/OneDrive/Documents/GitHub/KDM_Summer2017/Lab%20Assignment%202/Source/Grouping/project/}grouping-build...
+[debug] :: resolving dependencies :: default#grouping-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [compile]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cf24d0c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@130c7fdb
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
@@ -150,28 +150,28 @@
 [info] Resolving jline#jline;2.11 ...
 [debug] sbt-chain-delegate: Checking cache for: dependency: jline#jline;2.11 {compile=[default(compile)]}
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/jline/jline/2.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/jline/jline/2.11/ivys/ivy.xml
+[warn] Host repo.typesafe.com not found. url=https://repo.typesafe.com/typesafe/ivy-releases/jline/jline/2.11/ivys/ivy.xml
+[info] You probably access the destination server through a proxy server that is not well configured.
 [debug] 	typesafe-ivy-releases: no ivy file found for jline#jline;2.11
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/jline/jline/2.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/jline/jline/2.11/ivys/ivy.xml
+[warn] Host repo.scala-sbt.org not found. url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/jline/jline/2.11/ivys/ivy.xml
+[info] You probably access the destination server through a proxy server that is not well configured.
 [debug] 	sbt-plugin-releases: no ivy file found for jline#jline;2.11
 [debug] 		tried C:\Users\sadan\.ivy2\local\jline\jline\2.11\ivys\ivy.xml
 [debug] 	local: no ivy file found for jline#jline;2.11
 [debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
-[debug] 	public: found md file for jline#jline;2.11
-[debug] 		=> https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom (2.11)
-[debug] downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
-[debug] 	[SUCCESSFUL ] jline#jline;2.11!jline.pom(pom.original) (443ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 	found jline#jline;2.11 in public
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->master]
+[warn] Host repo1.maven.org not found. url=https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
+[info] You probably access the destination server through a proxy server that is not well configured.
+[debug] 	public: no ivy file found for jline#jline;2.11
+[warn] 	module not found: jline#jline;2.11
+[warn] ==== typesafe-ivy-releases: tried
+[warn]   https://repo.typesafe.com/typesafe/ivy-releases/jline/jline/2.11/ivys/ivy.xml
+[warn] ==== sbt-plugin-releases: tried
+[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/jline/jline/2.11/ivys/ivy.xml
+[warn] ==== local: tried
+[warn]   C:\Users\sadan\.ivy2\local\jline\jline\2.11\ivys\ivy.xml
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/jline/jline/2.11/jline-2.11.pom
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.8->org.scala-sbt#api;0.13.8 [compile->default(compile)]
 [info] Resolving org.scala-sbt#api;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#api;0.13.8 {compile=[default(compile)]}
@@ -222,9 +222,6 @@
 [debug] == resolving dependencies org.scala-sbt#process;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#process;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#incremental-compiler;0.13.8->org.scala-sbt#classpath;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#incremental-compiler;0.13.8->org.scala-sbt#relation;0.13.8 [compile->default(compile)]
 [info] Resolving org.scala-sbt#relation;0.13.8 ...
@@ -729,17 +726,17 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -808,9 +805,6 @@
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->org.scala-sbt#control;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->org.scala-sbt#io;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.8->org.scala-sbt#api;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#api;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#api;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -841,9 +835,6 @@
 [debug] == resolving dependencies org.scala-sbt#process;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#process;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#incremental-compiler;0.13.8->org.scala-sbt#classpath;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#incremental-compiler;0.13.8->org.scala-sbt#relation;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#relation;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -1202,22 +1193,22 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1286,9 +1277,6 @@
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->org.scala-sbt#control;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->org.scala-sbt#io;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#completion;0.13.8->jline#jline;2.11 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.8->org.scala-sbt#api;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#api;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#api;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -1319,9 +1307,6 @@
 [debug] == resolving dependencies org.scala-sbt#process;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#process;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->default(compile)]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->runtime]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->compile]
-[debug] == resolving dependencies org.scala-sbt#logging;0.13.8->jline#jline;2.11 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#incremental-compiler;0.13.8->org.scala-sbt#classpath;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#incremental-compiler;0.13.8->org.scala-sbt#relation;0.13.8 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#relation;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -1680,18 +1665,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#lab2-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for default#grouping-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -1709,8 +1694,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
@@ -1723,11 +1708,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#lab2-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#grouping-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
@@ -1763,7 +1748,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#control;0.13.8!control.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#collections;0.13.8!collections.jar
-[debug] 	[NOT REQUIRED] jline#jline;2.11!jline.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#incremental-compiler;0.13.8!incremental-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compile;0.13.8!compile.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#persist;0.13.8!persist.jar
@@ -1786,19 +1770,86 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 12821ms :: artifacts dl 1020ms
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT compile produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-compile.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT runtime produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-runtime.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT test produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-test.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT provided produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-provided.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT optional produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-optional.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT compile-internal produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-compile-internal.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-runtime-internal.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT test-internal produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-test-internal.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT plugin produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-plugin.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT sources produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-sources.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT docs produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-docs.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT pom produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-pom.xml
-[debug] 	report for default#lab2-build;0.1-SNAPSHOT scala-tool produced in C:\Users\sadan\Desktop\KDM LA\2\lab2\project\target\resolution-cache\reports\default-lab2-build-scala-tool.xml
-[debug] 	resolve done (12821ms resolve - 1020ms download)
-[info] Done updating.
+[debug] :: resolution report :: resolve 3449ms :: artifacts dl 76ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::          UNRESOLVED DEPENDENCIES         ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: jline#jline;2.11: not found
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT compile produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-compile.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT runtime produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-runtime.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT test produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-test.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT provided produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-provided.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT optional produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-optional.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT compile-internal produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-compile-internal.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-runtime-internal.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT test-internal produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-test-internal.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT plugin produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-plugin.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT sources produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-sources.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT docs produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-docs.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT pom produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-pom.xml
+[debug] 	report for default#grouping-build;0.1-SNAPSHOT scala-tool produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 2\Source\Grouping\project\target\resolution-cache\reports\default-grouping-build-scala-tool.xml
+[debug] 	resolve done (3449ms resolve - 76ms download)
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[warn] 		jline:jline:2.11
+[warn] 		  +- org.scala-sbt:logging:0.13.8
+[warn] 		  +- org.scala-sbt:classfile:0.13.8
+[warn] 		  +- org.scala-sbt:compile:0.13.8
+[warn] 		  +- org.scala-sbt:compiler-ivy-integration:0.13.8
+[warn] 		  +- org.scala-sbt:actions:0.13.8
+[warn] 		  +- org.scala-sbt:main:0.13.8
+[warn] 		  +- org.scala-sbt:sbt:0.13.8
+[warn] 		  +- default:grouping-build:0.1-SNAPSHOT (scalaVersion=2.10, sbtVersion=0.13)
+sbt.ResolveException: unresolved dependency: jline#jline;2.11: not found
+	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:291)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:188)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:165)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
+	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:155)
+	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:132)
+	at sbt.IvySbt.sbt$IvySbt$$action$1(Ivy.scala:57)
+	at sbt.IvySbt$$anon$4.call(Ivy.scala:65)
+	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)
+	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)
+	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)
+	at xsbt.boot.Using$.withResource(Using.scala:10)
+	at xsbt.boot.Using$.apply(Using.scala:9)
+	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:58)
+	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:48)
+	at xsbt.boot.Locks$.apply0(Locks.scala:31)
+	at xsbt.boot.Locks$.apply(Locks.scala:28)
+	at sbt.IvySbt.withDefaultLogger(Ivy.scala:65)
+	at sbt.IvySbt.withIvy(Ivy.scala:127)
+	at sbt.IvySbt.withIvy(Ivy.scala:124)
+	at sbt.IvySbt$Module.withModule(Ivy.scala:155)
+	at sbt.IvyActions$.updateEither(IvyActions.scala:165)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1369)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1365)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$87.apply(Defaults.scala:1399)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$87.apply(Defaults.scala:1397)
+	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:37)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1402)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1396)
+	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:60)
+	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1419)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1348)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1310)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:226)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:235)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:226)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[error] (*:update) sbt.ResolveException: unresolved dependency: jline#jline;2.11: not found

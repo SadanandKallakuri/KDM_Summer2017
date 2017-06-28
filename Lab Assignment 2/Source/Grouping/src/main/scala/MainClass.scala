@@ -47,12 +47,12 @@ object MainClass {
 
     System.out.println("lemm"+a)
        val c=sc.parallelize(a.toArray())
-       val b1=c.map(f=>(f.toString.head.toUpper,f)).groupByKey()
+       val b1=c.map(g=>(g.toString.head.toUpper,g)).groupByKey()
     System.out.print("output")
     for (line <- b1) println(line)
 
 
-    val d= c.map(f=>(1,f))
+
 
 
 

@@ -1,13 +1,13 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
-[debug] :: resolving dependencies :: default#sparkopenie_wordnet_lda$sbt_2.10;1.0
+[debug] :: resolving dependencies :: sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sbt_2.10;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'default'
-[debug] == resolving dependencies for default#sparkopenie_wordnet_lda$sbt_2.10;1.0 [default]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sbt_2.10;1.0->org.scala-sbt#sbt;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies for sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sbt_2.10;1.0 [default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sbt_2.10;1.0->org.scala-sbt#sbt;0.13.15 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.15 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.15 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.15
@@ -442,6 +442,7 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [info] Resolving org.scala-sbt#compiler-integration;0.13.15 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-integration;0.13.15 {compile=[default(compile)]}
+[debug] no default cache defined: set to C:\Users\sadan\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-integration;0.13.15
 [debug] 	found org.scala-sbt#compiler-integration;0.13.15 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -1778,17 +1779,17 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.15!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 3074ms :: artifacts dl 53ms
-[debug] 	report for default#sparkopenie_wordnet_lda$sbt_2.10;1.0 default produced in C:\Users\sadan\Desktop\KDM\4\Tutorial 4 Source Code\SparkOpenIE_WordNET_LDA\target\resolution-cache\reports\default-sparkopenie_wordnet_lda$sbt_2.10-default.xml
-[debug] 	resolve done (3074ms resolve - 53ms download)
+[debug] :: resolution report :: resolve 1106ms :: artifacts dl 34ms
+[debug] 	report for sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sbt_2.10;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 4- WordNet- ConceptNet5- OpenIE- LDA\Source\Lab 4\target\resolution-cache\reports\sparkopenie_wordnet_lda-sparkopenie_wordnet_lda$sbt_2.10-default.xml
+[debug] 	resolve done (1106ms resolve - 34ms download)
 [debug] Using inline dependencies specified in Scala.
-[debug] :: resolving dependencies :: default#sparkopenie_wordnet_lda$sources_2.10;1.0
+[debug] :: resolving dependencies :: sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'default'
-[debug] == resolving dependencies for default#sparkopenie_wordnet_lda$sources_2.10;1.0 [default]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#api;0.13.15 [default->compile]
+[debug] == resolving dependencies for sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0 [default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#api;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1796,8 +1797,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#api;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#api;0.13.15
 [debug] 	found org.scala-sbt#api;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#api;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compile;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#api;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compile;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1805,8 +1806,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compile;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compile;0.13.15
 [debug] 	found org.scala-sbt#compile;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compile;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#persist;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compile;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#persist;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1814,8 +1815,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#persist;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#persist;0.13.15
 [debug] 	found org.scala-sbt#persist;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#persist;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#process;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#persist;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#process;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1823,8 +1824,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#process;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#process;0.13.15
 [debug] 	found org.scala-sbt#process;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#process;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#classpath;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#process;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#classpath;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1832,8 +1833,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classpath;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classpath;0.13.15
 [debug] 	found org.scala-sbt#classpath;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#classpath;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#relation;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#classpath;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#relation;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1841,8 +1842,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#relation;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#relation;0.13.15
 [debug] 	found org.scala-sbt#relation;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#relation;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#relation;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1850,14 +1851,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scalamacros#quasiquotes_2.10;2.0.1 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.1
 [debug] 	found org.scalamacros#quasiquotes_2.10;2.0.1 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1865,18 +1866,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#serialization_2.10;0.1.2 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#serialization_2.10;0.1.2
 [debug] 	found org.scala-sbt#serialization_2.10;0.1.2 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1884,14 +1885,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-pickling_2.10;0.10.1 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-pickling_2.10;0.10.1
 [debug] 	found org.scala-lang.modules#scala-pickling_2.10;0.10.1 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-agent;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-agent;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1899,8 +1900,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-agent;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-agent;0.13.15
 [debug] 	found org.scala-sbt#test-agent;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-agent;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#logging;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-agent;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#logging;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1908,8 +1909,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logging;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logging;0.13.15
 [debug] 	found org.scala-sbt#logging;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#logging;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#command;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#logging;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#command;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1917,8 +1918,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#command;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#command;0.13.15
 [debug] 	found org.scala-sbt#command;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#command;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#task-system;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#command;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#task-system;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1926,8 +1927,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#task-system;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#task-system;0.13.15
 [debug] 	found org.scala-sbt#task-system;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#task-system;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-integration;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#task-system;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-integration;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1935,8 +1936,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-integration;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-integration;0.13.15
 [debug] 	found org.scala-sbt#compiler-integration;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-integration;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-integration;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1945,22 +1946,22 @@
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.6
 [debug] 	found org.scala-lang#scala-reflect;2.10.6 in sbt-chain
 [debug] 	[2.10.6] org.scala-lang#scala-reflect;2.10.6
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->default]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#actions;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-reflect;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#actions;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1968,8 +1969,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#actions;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#actions;0.13.15
 [debug] 	found org.scala-sbt#actions;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#actions;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#classfile;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#actions;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#classfile;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1977,8 +1978,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classfile;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classfile;0.13.15
 [debug] 	found org.scala-sbt#classfile;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#classfile;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#ivy;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#classfile;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#ivy;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1986,8 +1987,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#ivy;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#ivy;0.13.15
 [debug] 	found org.scala-sbt#ivy;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#ivy;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-interface;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#ivy;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-interface;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -1995,8 +1996,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-interface;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-interface;0.13.15
 [debug] 	found org.scala-sbt#compiler-interface;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-interface;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#cache;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-interface;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#cache;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2004,8 +2005,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cache;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cache;0.13.15
 [debug] 	found org.scala-sbt#cache;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#cache;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#testing;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#cache;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#testing;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2013,8 +2014,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#testing;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#testing;0.13.15
 [debug] 	found org.scala-sbt#testing;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#testing;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#testing;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2022,18 +2023,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#launcher-interface;1.0.1 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#launcher-interface;1.0.1
 [debug] 	found org.scala-sbt#launcher-interface;1.0.1 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#launcher-interface;1.0.1 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2041,14 +2042,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-core_2.10;3.2.10 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.10;3.2.10
 [debug] 	found org.json4s#json4s-core_2.10;3.2.10 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#cross;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-core_2.10;3.2.10 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#cross;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2056,8 +2057,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cross;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cross;0.13.15
 [debug] 	found org.scala-sbt#cross;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#cross;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#tasks;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#cross;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#tasks;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2065,8 +2066,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#tasks;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#tasks;0.13.15
 [debug] 	found org.scala-sbt#tasks;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#tasks;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#apply-macro;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#tasks;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#apply-macro;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2074,8 +2075,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#apply-macro;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#apply-macro;0.13.15
 [debug] 	found org.scala-sbt#apply-macro;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#apply-macro;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#main;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#apply-macro;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#main;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2083,8 +2084,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.15
 [debug] 	found org.scala-sbt#main;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#main;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#collections;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#main;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#collections;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2092,8 +2093,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#collections;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#collections;0.13.15
 [debug] 	found org.scala-sbt#collections;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#collections;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#collections;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2101,14 +2102,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.spire-math#jawn-parser_2.10;0.6.0 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.spire-math#jawn-parser_2.10;0.6.0
 [debug] 	found org.spire-math#jawn-parser_2.10;0.6.0 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#io;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#jawn-parser_2.10;0.6.0 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#io;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2116,8 +2117,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#io;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#io;0.13.15
 [debug] 	found org.scala-sbt#io;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#io;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#interface;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#io;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#interface;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2126,8 +2127,8 @@
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#interface;0.13.15
 [debug] 	found org.scala-sbt#interface;0.13.15 in sbt-chain
 [debug] 	[0.13.15] org.scala-sbt#interface;0.13.15
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#interface;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#interface;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2135,14 +2136,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.10;3.2.10 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.2.10
 [debug] 	found org.json4s#json4s-ast_2.10;3.2.10 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.json4s#json4s-ast_2.10;3.2.10 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2151,22 +2152,22 @@
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6
 [debug] 	found org.scala-lang#scala-library;2.10.6 in sbt-chain
 [debug] 	[2.10.6] org.scala-lang#scala-library;2.10.6
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->master(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-library;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2174,18 +2175,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#template-resolver;0.1 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#template-resolver;0.1
 [debug] 	found org.scala-sbt#template-resolver;0.1 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#template-resolver;0.1 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2193,8 +2194,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-tools.sbinary#sbinary_2.10;0.4.2 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
 [debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2202,14 +2203,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.spire-math#json4s-support_2.10;0.6.0 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.spire-math#json4s-support_2.10;0.6.0
 [debug] 	found org.spire-math#json4s-support_2.10;0.6.0 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#tracking;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.spire-math#json4s-support_2.10;0.6.0 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#tracking;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2217,8 +2218,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#tracking;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#tracking;0.13.15
 [debug] 	found org.scala-sbt#tracking;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#tracking;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#tracking;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2226,14 +2227,14 @@
 [debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.6 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#completion;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.thoughtworks.paranamer#paranamer;2.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#completion;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2241,8 +2242,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#completion;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#completion;0.13.15
 [debug] 	found org.scala-sbt#completion;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#completion;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#control;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#completion;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#control;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2250,8 +2251,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#control;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#control;0.13.15
 [debug] 	found org.scala-sbt#control;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#control;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#sbt;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#control;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#sbt;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2259,8 +2260,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.15
 [debug] 	found org.scala-sbt#sbt;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#sbt;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#run;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#sbt;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#run;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2268,8 +2269,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#run;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#run;0.13.15
 [debug] 	found org.scala-sbt#run;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#run;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#run;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2277,18 +2278,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4
 [debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt.ivy#ivy;2.3.0-sbt-48dd0744422128446aee9ac31aa356ee203cc9f4 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2296,18 +2297,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#test-interface;1.0 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2315,18 +2316,18 @@
 [debug] sbt-chain: Checking cache for: dependency: com.jcraft#jsch;0.1.50 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: com.jcraft#jsch;0.1.50
 [debug] 	found com.jcraft#jsch;0.1.50 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->com.jcraft#jsch;0.1.50 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2334,22 +2335,22 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.6
 [debug] 	found org.scala-lang#scala-compiler;2.10.6 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->master(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->runtime(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile(*)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->default]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->master(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->runtime(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->compile(*)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-lang#scala-compiler;2.10.6 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2357,18 +2358,18 @@
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.3 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.3
 [debug] 	found jline#jline;2.14.3 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->runtime]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->compile]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->master]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-ivy-integration;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->runtime]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->jline#jline;2.14.3 [default->master]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-ivy-integration;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2376,8 +2377,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-ivy-integration;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-ivy-integration;0.13.15
 [debug] 	found org.scala-sbt#compiler-ivy-integration;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-ivy-integration;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#incremental-compiler;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#compiler-ivy-integration;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#incremental-compiler;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2385,8 +2386,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#incremental-compiler;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#incremental-compiler;0.13.15
 [debug] 	found org.scala-sbt#incremental-compiler;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#incremental-compiler;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#logic;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#incremental-compiler;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#logic;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2394,8 +2395,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logic;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.15
 [debug] 	found org.scala-sbt#logic;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#logic;0.13.15 [default->default(compile)]
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#main-settings;0.13.15 [default->compile]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#logic;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#main-settings;0.13.15 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.6 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.6 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
@@ -2403,7 +2404,7 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main-settings;0.13.15 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main-settings;0.13.15
 [debug] 	found org.scala-sbt#main-settings;0.13.15 in sbt-chain
-[debug] == resolving dependencies default#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#main-settings;0.13.15 [default->default(compile)]
+[debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0->org.scala-sbt#main-settings;0.13.15 [default->default(compile)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
@@ -2458,6 +2459,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#incremental-compiler;0.13.15!incremental-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.15!logic.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#main-settings;0.13.15!main-settings.jar(src)
-[debug] :: resolution report :: resolve 447ms :: artifacts dl 198ms
-[debug] 	report for default#sparkopenie_wordnet_lda$sources_2.10;1.0 default produced in C:\Users\sadan\Desktop\KDM\4\Tutorial 4 Source Code\SparkOpenIE_WordNET_LDA\target\resolution-cache\reports\default-sparkopenie_wordnet_lda$sources_2.10-default.xml
-[debug] 	resolve done (447ms resolve - 198ms download)
+[debug] :: resolution report :: resolve 209ms :: artifacts dl 74ms
+[debug] 	report for sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 4- WordNet- ConceptNet5- OpenIE- LDA\Source\Lab 4\target\resolution-cache\reports\sparkopenie_wordnet_lda-sparkopenie_wordnet_lda$sources_2.10-default.xml
+[debug] 	resolve done (209ms resolve - 74ms download)

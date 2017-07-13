@@ -4,7 +4,7 @@
 		module="sparkopenie_wordnet_lda$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170705142428"
+		publication="20170712222600"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

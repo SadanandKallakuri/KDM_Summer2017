@@ -1,0 +1,48 @@
+
+Corpus summary:
+	 Training set size: 40 documents
+	 Vocabulary size: 30175 terms
+	 Preprocessing time: 16.541146524 sec
+
+Finished training KMeans model.  Summary:
+	 Training time: 0.951915864 sec
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14147;3
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14831;2
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14832;3
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14982;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14983;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14984;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14985;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14986;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14987;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.crypt/14988;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52434;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52446;4
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52464;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52717;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52718;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52719;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52720;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52721;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52722;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.electronics/52723;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/57110;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58043;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58044;2
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58045;4
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58046;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58047;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58048;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58049;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58050;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.med/58051;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59497;0
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59846;4
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59848;2
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59849;2
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59850;2
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59870;3
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59871;2
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59872;3
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59873;1
+file:/C:/Users/nikky/Documents/KDM/CS5560 - Tutorial 5 Source/Spark_MachineLearning/data/20_news/sci.space/59874;1

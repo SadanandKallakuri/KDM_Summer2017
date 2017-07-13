@@ -10,7 +10,9 @@ object WordNetSparkDataset {
     val syn=dataset.map(g=>{
       val wordnet1 = new RiWordNet("C:\\Users\\sadan\\Desktop\\KDM\\4\\WordNet-3.0")
       val farr1=g.split(" ")
-      getSynoymns(wordnet1,"place")
+      System.out.println("Enter the word to find the hyponym")
+      val input=scala.io.StdIn.readLine()
+      getSynoymns(wordnet1,input)
     })
     syn.take(1).foreach(g=>println(g.mkString(" ")))
   }

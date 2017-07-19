@@ -1,0 +1,4 @@
+hasBids,Club,Bids,double
+hasClub,Person,Club,string
+hasManager,Club,Person,string
+hasPerson,Clubs,Person,string

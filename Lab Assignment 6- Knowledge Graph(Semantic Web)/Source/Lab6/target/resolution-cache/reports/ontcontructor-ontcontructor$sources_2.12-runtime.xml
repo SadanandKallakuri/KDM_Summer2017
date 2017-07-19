@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="ontcontructor"
+		module="ontcontructor$sources_2.12"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170718210313"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.1" status="release" pubdate="20161205050923" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\sadan\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.12.1" rev-constraint-default="2.12.1" rev-constraint-dynamic="2.12.1" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.12.1/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="988614" time="0" location="C:\Users\sadan\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-distribution">
+			<revision name="5.1.0" status="release" pubdate="20170329183953" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="Apache License Version 2.0, January 2004" url="http://www.apache.org/licenses/"/>
+				<license name="GNU LGPL Version 3.0" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="11074" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-distribution\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-distribution/5.1.0/owlapi-distribution-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-distribution" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2407530" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-distribution\srcs\owlapi-distribution-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-distribution/5.1.0/owlapi-distribution-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-compatibility">
+			<revision name="5.1.0" status="release" pubdate="20170329184003" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache License Version 2.0, January 2004" url="http://www.apache.org/licenses/"/>
+				<license name="GNU LGPL Version 3.0" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="7519" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-compatibility\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-compatibility/5.1.0/owlapi-compatibility-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-compatibility" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="115956" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-compatibility\srcs\owlapi-compatibility-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-compatibility/5.1.0/owlapi-compatibility-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.5" status="release" pubdate="20161114000537" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7030" time="0" location="C:\Users\sadan\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.8.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.5/jackson-annotations-2.8.5.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.8.5" rev-constraint-default="2.8.5" rev-constraint-dynamic="2.8.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57660" time="0" location="C:\Users\sadan\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.8.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.5/jackson-annotations-2.8.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.5" status="release" pubdate="20161114001438" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8225" time="0" location="C:\Users\sadan\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.8.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.8.5" rev-constraint-default="2.8.5" rev-constraint-dynamic="2.8.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="919303" time="0" location="C:\Users\sadan\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.8.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.5/jackson-databind-2.8.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.5" status="release" pubdate="20161114000752" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7486" time="0" location="C:\Users\sadan\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.8.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.8.5" rev-constraint-default="2.8.5" rev-constraint-dynamic="2.8.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="293681" time="0" location="C:\Users\sadan\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.8.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.5/jackson-core-2.8.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.22" status="release" pubdate="20161213110626" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5328" time="0" location="C:\Users\sadan\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.22.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="1.7.22" rev-constraint-default="1.7.22" rev-constraint-dynamic="1.7.22" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23239" time="0" location="C:\Users\sadan\.ivy2\cache\org.slf4j\jcl-over-slf4j\srcs\jcl-over-slf4j-1.7.22-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.22/jcl-over-slf4j-1.7.22-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-apibinding">
+			<revision name="5.1.0" status="release" pubdate="20170329183923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License Version 2.0, January 2004" url="http://www.apache.org/licenses/"/>
+				<license name="GNU LGPL Version 3.0" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="8279" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-apibinding\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-apibinding/5.1.0/owlapi-apibinding-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-apibinding" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10307" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-apibinding\srcs\owlapi-apibinding-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-apibinding/5.1.0/owlapi-apibinding-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-rio">
+			<revision name="5.1.0" status="release" pubdate="20170329184001" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache License Version 2.0, January 2004" url="http://www.apache.org/licenses/"/>
+				<license name="GNU LGPL Version 3.0" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="10028" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-rio\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-rio/5.1.0/owlapi-rio-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-rio" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="90456" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-rio\srcs\owlapi-rio-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-rio/5.1.0/owlapi-rio-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jsonld-java" name="jsonld-java">
+			<revision name="0.9.0" status="release" pubdate="20161222134227" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Revised BSD License" url="https://raw.github.com/jsonld-java/jsonld-java/master/LICENCE"/>
+				<metadata-artifact status="no" details="" size="10313" time="0" location="C:\Users\sadan\.ivy2\cache\com.github.jsonld-java\jsonld-java\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jsonld-java/jsonld-java/0.9.0/jsonld-java-0.9.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsonld-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="79420" time="0" location="C:\Users\sadan\.ivy2\cache\com.github.jsonld-java\jsonld-java\srcs\jsonld-java-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jsonld-java/jsonld-java/0.9.0/jsonld-java-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore-osgi">
+			<revision name="4.4.4" status="release" pubdate="20151026122017" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9707" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpcore-osgi\ivy-4.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.4/httpcore-osgi-4.4.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.4.4" rev-constraint-default="4.4.4" rev-constraint-dynamic="4.4.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpcore-osgi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8743" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpcore-osgi\srcs\httpcore-osgi-4.4.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-osgi/4.4.4/httpcore-osgi-4.4.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore-nio">
+			<revision name="4.4.4" status="release" pubdate="20151026121927" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7851" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpcore-nio\ivy-4.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.4.4" rev-constraint-default="4.4.4" rev-constraint-dynamic="4.4.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpcore-nio" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="358578" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpcore-nio\srcs\httpcore-nio-4.4.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient-osgi">
+			<revision name="4.5.2" status="release" pubdate="20160221100950" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10886" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpclient-osgi\ivy-4.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.2/httpclient-osgi-4.5.2.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpclient-osgi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24068" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpclient-osgi\srcs\httpclient-osgi-4.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-osgi/4.5.2/httpclient-osgi-4.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="fluent-hc">
+			<revision name="4.5.2" status="release" pubdate="20160221100716" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9826" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\fluent-hc\ivy-4.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/fluent-hc/4.5.2/fluent-hc-4.5.2.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="fluent-hc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25791" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\fluent-hc\srcs\fluent-hc-4.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/fluent-hc/4.5.2/fluent-hc-4.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient-cache">
+			<revision name="4.5.2" status="release" pubdate="20160221100822" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10560" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpclient-cache\ivy-4.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-cache/4.5.2/httpclient-cache-4.5.2.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpclient-cache" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="147155" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpclient-cache\srcs\httpclient-cache-4.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-cache/4.5.2/httpclient-cache-4.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpmime">
+			<revision name="4.5.2" status="release" pubdate="20160221100652" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9406" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpmime\ivy-4.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpmime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38715" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpmime\srcs\httpmime-4.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.2" status="release" pubdate="20160221100550" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9890" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.5.2" rev-constraint-default="4.5.2" rev-constraint-dynamic="4.5.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="707899" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpclient\srcs\httpclient-4.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.9" status="release" pubdate="20131220215739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10191" time="0" location="C:\Users\sadan\.ivy2\cache\commons-codec\commons-codec\ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278370" time="0" location="C:\Users\sadan\.ivy2\cache\commons-codec\commons-codec\srcs\commons-codec-1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.4" status="release" pubdate="20151026121814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7774" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.4.4" rev-constraint-default="4.4.4" rev-constraint-dynamic="4.4.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="405277" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.httpcomponents\httpcore\srcs\httpcore-4.4.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-jsonld">
+			<revision name="2.1.4" status="release" pubdate="20161215174304" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16889" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-jsonld\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-jsonld/2.1.4/rdf4j-rio-jsonld-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-jsonld" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9100" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-jsonld\srcs\rdf4j-rio-jsonld-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-jsonld/2.1.4/rdf4j-rio-jsonld-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-trig">
+			<revision name="2.1.4" status="release" pubdate="20161215174422" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16503" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-trig\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-trig/2.1.4/rdf4j-rio-trig-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-trig" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8794" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-trig\srcs\rdf4j-rio-trig-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-trig/2.1.4/rdf4j-rio-trig-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-trix">
+			<revision name="2.1.4" status="release" pubdate="20161215174457" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16717" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-trix\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-trix/2.1.4/rdf4j-rio-trix-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-trix" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9032" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-trix\srcs\rdf4j-rio-trix-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-trix/2.1.4/rdf4j-rio-trix-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-rdfxml">
+			<revision name="2.1.4" status="release" pubdate="20161215174514" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16724" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-rdfxml\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-rdfxml/2.1.4/rdf4j-rio-rdfxml-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-rdfxml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27469" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-rdfxml\srcs\rdf4j-rio-rdfxml-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-rdfxml/2.1.4/rdf4j-rio-rdfxml-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-rdfjson">
+			<revision name="2.1.4" status="release" pubdate="20161215174401" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16656" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-rdfjson\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-rdfjson/2.1.4/rdf4j-rio-rdfjson-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-rdfjson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9107" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-rdfjson\srcs\rdf4j-rio-rdfjson-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-rdfjson/2.1.4/rdf4j-rio-rdfjson-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-nquads">
+			<revision name="2.1.4" status="release" pubdate="20161215174510" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16503" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-nquads\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-nquads/2.1.4/rdf4j-rio-nquads-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-nquads" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6036" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-nquads\srcs\rdf4j-rio-nquads-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-nquads/2.1.4/rdf4j-rio-nquads-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-ntriples">
+			<revision name="2.1.4" status="release" pubdate="20161215174504" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16354" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-ntriples\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-ntriples/2.1.4/rdf4j-rio-ntriples-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-ntriples" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13474" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-ntriples\srcs\rdf4j-rio-ntriples-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-ntriples/2.1.4/rdf4j-rio-ntriples-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-n3">
+			<revision name="2.1.4" status="release" pubdate="20161215174511" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16339" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-n3\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-n3/2.1.4/rdf4j-rio-n3-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-n3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4085" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-n3\srcs\rdf4j-rio-n3-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-n3/2.1.4/rdf4j-rio-n3-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-turtle">
+			<revision name="2.1.4" status="release" pubdate="20161215174505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16723" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-turtle\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-turtle/2.1.4/rdf4j-rio-turtle-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-turtle" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22066" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-turtle\srcs\rdf4j-rio-turtle-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-turtle/2.1.4/rdf4j-rio-turtle-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-binary">
+			<revision name="2.1.4" status="release" pubdate="20161215174458" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16066" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-binary\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-binary/2.1.4/rdf4j-rio-binary-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-binary" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8267" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-binary\srcs\rdf4j-rio-binary-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-binary/2.1.4/rdf4j-rio-binary-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-datatypes">
+			<revision name="2.1.4" status="release" pubdate="20161215174433" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16041" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-datatypes\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-datatypes/2.1.4/rdf4j-rio-datatypes-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-datatypes" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6655" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-datatypes\srcs\rdf4j-rio-datatypes-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-datatypes/2.1.4/rdf4j-rio-datatypes-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-languages">
+			<revision name="2.1.4" status="release" pubdate="20161215174326" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="16041" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-languages\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-languages/2.1.4/rdf4j-rio-languages-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-languages" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2424" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-languages\srcs\rdf4j-rio-languages-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-languages/2.1.4/rdf4j-rio-languages-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-rio-api">
+			<revision name="2.1.4" status="release" pubdate="20161215174343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="15956" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-api\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-api/2.1.4/rdf4j-rio-api-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-rio-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="69975" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-rio-api\srcs\rdf4j-rio-api-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-rio-api/2.1.4/rdf4j-rio-api-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-model">
+			<revision name="2.1.4" status="release" pubdate="20161215174333" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="15617" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-model\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-model/2.1.4/rdf4j-model-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-model" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172725" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-model\srcs\rdf4j-model-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-model/2.1.4/rdf4j-model-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.rdf4j" name="rdf4j-util">
+			<revision name="2.1.4" status="release" pubdate="20161215174307" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Eclipse Distribution License v1.0" url="https://eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="15727" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-util\ivy-2.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-util/2.1.4/rdf4j-util-2.1.4.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.1.4" rev-constraint-default="2.1.4" rev-constraint-dynamic="2.1.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="rdf4j-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="88035" time="0" location="C:\Users\sadan\.ivy2\cache\org.eclipse.rdf4j\rdf4j-util\srcs\rdf4j-util-2.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/rdf4j/rdf4j-util/2.1.4/rdf4j-util-2.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-tools">
+			<revision name="5.1.0" status="release" pubdate="20170329184005" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache License Version 2.0, January 2004" url="http://www.apache.org/licenses/"/>
+				<license name="GNU LGPL Version 3.0" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="7496" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-tools\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-tools/5.1.0/owlapi-tools-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-tools" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201991" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-tools\srcs\owlapi-tools-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-tools/5.1.0/owlapi-tools-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-oboformat">
+			<revision name="5.1.0" status="release" pubdate="20170329183911" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/oboformat/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The BSD 3-Clause License" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="7768" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-oboformat\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-oboformat/5.1.0/owlapi-oboformat-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-oboformat" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="101433" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-oboformat\srcs\owlapi-oboformat-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-oboformat/5.1.0/owlapi-oboformat-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-parsers">
+			<revision name="5.1.0" status="release" pubdate="20170329184016" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License Version 2.0, January 2004" url="http://www.apache.org/licenses/"/>
+				<license name="GNU LGPL Version 3.0" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="7500" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-parsers\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-parsers/5.1.0/owlapi-parsers-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-parsers" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="505513" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-parsers\srcs\owlapi-parsers-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-parsers/5.1.0/owlapi-parsers-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-impl">
+			<revision name="5.1.0" status="release" pubdate="20170329183955" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache License Version 2.0, January 2004" url="http://www.apache.org/licenses/"/>
+				<license name="GNU LGPL Version 3.0" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="7494" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-impl\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-impl/5.1.0/owlapi-impl-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-impl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="288782" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-impl\srcs\owlapi-impl-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-impl/5.1.0/owlapi-impl-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.owlapi" name="owlapi-api">
+			<revision name="5.1.0" status="release" pubdate="20170329183923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License Version 2.0, January 2004" url="http://www.apache.org/licenses/"/>
+				<license name="GNU LGPL Version 3.0" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="7793" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-api\ivy-5.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-api/5.1.0/owlapi-api-5.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="5.1.0" rev-constraint-default="5.1.0" rev-constraint-dynamic="5.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="owlapi-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1297817" time="0" location="C:\Users\sadan\.ivy2\cache\net.sourceforge.owlapi\owlapi-api\srcs\owlapi-api-5.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/owlapi/owlapi-api/5.1.0/owlapi-api-5.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.5" status="release" pubdate="20160422095236" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11692" time="0" location="C:\Users\sadan\.ivy2\cache\commons-io\commons-io\ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="275699" time="0" location="C:\Users\sadan\.ivy2\cache\commons-io\commons-io\srcs\commons-io-2.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.22" status="release" pubdate="20161213110525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5250" time="0" location="C:\Users\sadan\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.22.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="1.7.22" rev-constraint-default="1.7.22" rev-constraint-dynamic="1.7.22" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55650" time="0" location="C:\Users\sadan\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.22-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-multibindings">
+			<revision name="4.1.0" status="release" pubdate="20160617145348" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5356" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.inject.extensions\guice-multibindings\ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guice-multibindings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="44340" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.inject.extensions\guice-multibindings\srcs\guice-multibindings-4.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-multibindings/4.1.0/guice-multibindings-4.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
+			<revision name="4.1.0" status="release" pubdate="20160617145329" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5358" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guice-assistedinject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="34008" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\srcs\guice-assistedinject-4.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.1.0/guice-assistedinject-4.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.ben-manes.caffeine" name="caffeine">
+			<revision name="2.3.5" status="release" pubdate="20161106223149" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ben-manes/caffeine" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5534" time="0" location="C:\Users\sadan\.ivy2\cache\com.github.ben-manes.caffeine\caffeine\ivy-2.3.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.5/caffeine-2.3.5.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="2.3.5" rev-constraint-default="2.3.5" rev-constraint-dynamic="2.3.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="caffeine" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="147951" time="0" location="C:\Users\sadan\.ivy2\cache\com.github.ben-manes.caffeine\caffeine\srcs\caffeine-2.3.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.5/caffeine-2.3.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject" name="guice">
+			<revision name="4.1.0" status="release" pubdate="20160617145314" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5708" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.inject\guice\ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="310663" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.inject\guice\srcs\guice-4.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/guice/4.1.0/guice-4.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20070226164340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2320" time="0" location="C:\Users\sadan\.ivy2\cache\aopalliance\aopalliance\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="C:\Users\sadan\.ivy2\cache\aopalliance\aopalliance\srcs\aopalliance-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091013183500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2409" time="0" location="C:\Users\sadan\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="C:\Users\sadan\.ivy2\cache\javax.inject\javax.inject\srcs\javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.1" status="release" pubdate="20151009000635" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3301" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16622" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.code.findbugs\jsr305\srcs\jsr305-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="20.0" status="release" pubdate="20161028155635" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6416" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.guava\guava\ivy-20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="20.0" rev-constraint-default="20.0" rev-constraint-dynamic="20.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1453695" time="0" location="C:\Users\sadan\.ivy2\cache\com.google.guava\guava\srcs\guava-20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.trove4j" name="trove4j">
+			<revision name="3.0.3" status="release" pubdate="20120603220433" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://trove4j.sf.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="GNU Lesser General Public License 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="2579" time="0" location="C:\Users\sadan\.ivy2\cache\net.sf.trove4j\trove4j\ivy-3.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="3.0.3" rev-constraint-default="3.0.3" rev-constraint-dynamic="3.0.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="trove4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1793123" time="0" location="C:\Users\sadan\.ivy2\cache\net.sf.trove4j\trove4j\srcs\trove4j-3.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-rdf-api">
+			<revision name="0.3.0-incubating" status="release" pubdate="20161108042918" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14466" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.commons\commons-rdf-api\ivy-0.3.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-rdf-api/0.3.0-incubating/commons-rdf-api-0.3.0-incubating.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="0.3.0-incubating" rev-constraint-default="0.3.0-incubating" rev-constraint-dynamic="0.3.0-incubating" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-rdf-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42998" time="0" location="C:\Users\sadan\.ivy2\cache\org.apache.commons\commons-rdf-api\srcs\commons-rdf-api-0.3.0-incubating-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-rdf-api/0.3.0-incubating/commons-rdf-api-0.3.0-incubating-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.6" status="release" pubdate="20161127053851" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2433" time="0" location="C:\Users\sadan\.ivy2\cache\org.tukaani\xz\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.6/xz-1.6.pom"/>
+				<caller organisation="ontcontructor" name="ontcontructor$sources_2.12" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123449" time="0" location="C:\Users\sadan\.ivy2\cache\org.tukaani\xz\srcs\xz-1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.6/xz-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

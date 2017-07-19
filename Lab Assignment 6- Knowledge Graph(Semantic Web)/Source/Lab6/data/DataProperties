@@ -1,0 +1,5 @@
+CountryName,Country,string
+fullname,Person,string
+clubsName,Clubs,string
+bidsAmount,Bids,double
+transferTo,Transfer,string

@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mayanka/ontologies/2017/6/family#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mayanka/ontologies/2017/6/family#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="Ethnicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasGender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasParent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Son"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Daughter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasChild"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Parent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mother"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Father"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="fullName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OffSpring"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Daughter"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Father"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mother"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OffSpring"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Parent"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Son"/>
+        <Class IRI="Person"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="Gender"/>
+        <NamedIndividual IRI="Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Gender"/>
+        <NamedIndividual IRI="Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Person"/>
+        <NamedIndividual IRI="Mary"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="hasGender"/>
+        <NamedIndividual IRI="Mary"/>
+        <NamedIndividual IRI="Female"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="fullName"/>
+        <NamedIndividual IRI="Mary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mary Jost</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="hasChild"/>
+        <ObjectProperty IRI="hasParent"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hasGender"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasChild"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasGender"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasChild"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasGender"/>
+        <Class IRI="Gender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasParent"/>
+        <Class IRI="Person"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="ID"/>
+        <Class IRI="Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="fullName"/>
+        <Class IRI="Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="fullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

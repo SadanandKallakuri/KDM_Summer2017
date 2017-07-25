@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/megha/ontologies/2017/7/football#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/megha/ontologies/2017/7/football#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="DAUGHTER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="FATHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MOTHER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OCCUPATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SON"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="spouseOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Athelete"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Moulika"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="realtedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Subhash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Student"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Architect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isAn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isAN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Prasanna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Karthik"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="sisterOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cerner"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="OCCUPATION"/>
+        <NamedIndividual IRI="Architect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OCCUPATION"/>
+        <NamedIndividual IRI="Athelete"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OCCUPATION"/>
+        <NamedIndividual IRI="Cerner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SON"/>
+        <NamedIndividual IRI="Karthik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MOTHER"/>
+        <NamedIndividual IRI="Moulika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DAUGHTER"/>
+        <NamedIndividual IRI="Prasanna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="OCCUPATION"/>
+        <NamedIndividual IRI="Student"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="FATHER"/>
+        <NamedIndividual IRI="Subhash"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="isAN"/>
+        <NamedIndividual IRI="Karthik"/>
+        <NamedIndividual IRI="Student"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="spouseOf"/>
+        <NamedIndividual IRI="Moulika"/>
+        <NamedIndividual IRI="Subhash"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="worksFor"/>
+        <NamedIndividual IRI="Moulika"/>
+        <NamedIndividual IRI="Cerner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="isAn"/>
+        <NamedIndividual IRI="Prasanna"/>
+        <NamedIndividual IRI="Athelete"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="sisterOf"/>
+        <NamedIndividual IRI="Prasanna"/>
+        <NamedIndividual IRI="Karthik"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="isAn"/>
+        <NamedIndividual IRI="Subhash"/>
+        <NamedIndividual IRI="Architect"/>
+    </ObjectPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="isAn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="isAn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="isAn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="sisterOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="spouseOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="worksFor"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isAn"/>
+        <Class IRI="DAUGHTER"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isAn"/>
+        <Class IRI="FATHER"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isAn"/>
+        <Class IRI="SON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="sisterOf"/>
+        <Class IRI="DAUGHTER"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="spouseOf"/>
+        <Class IRI="MOTHER"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="worksFor"/>
+        <Class IRI="MOTHER"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isAn"/>
+        <Class IRI="OCCUPATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isAn"/>
+        <Class IRI="OCCUPATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isAn"/>
+        <Class IRI="OCCUPATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="sisterOf"/>
+        <Class IRI="SON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="spouseOf"/>
+        <Class IRI="FATHER"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="worksFor"/>
+        <Class IRI="OCCUPATION"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="FATHER"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="MOTHER"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="worksFor"/>
+        <Class IRI="OCCUPATION"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="realtedTo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="worksFor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0.2017-03-29T23:31:42Z) https://github.com/owlcs/owlapi/ -->
+
+

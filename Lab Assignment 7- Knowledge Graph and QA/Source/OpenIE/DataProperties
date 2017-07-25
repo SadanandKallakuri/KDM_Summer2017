@@ -1,0 +1,8 @@
+realtedTo,LOCATION,string
+realtedTo,NUMBER,string
+realtedTo,GAME,string
+realtedTo,DATE,string
+realtedTo,TEAM,string
+realtedTo,ORGANIZATION,string
+realtedTo,MISC,string
+realtedTo,PERSON,string

@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/megha/ontologies/2017/7/football#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/megha/ontologies/2017/7/football#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="DATE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GAME"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LOCATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MISC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NUMBER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ORGANIZATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PERSON"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TEAM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="San"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="quarterback"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="would"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SuperBowl"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="was"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Panthers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="champion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="under"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1995"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="American"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Arizona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="February"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="SanFrancisco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Broncos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="at"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="realtedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Levi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="played"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="would"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="numerals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Arabic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="50th"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Super"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="American"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="American"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="American"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="Arabic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="Arizona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Broncos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="February"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Levi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Levi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="Panthers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="San"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Stadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="Super"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="Super"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="game"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="numerals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="played"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="quarterback"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="under"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="would"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="1995"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="50th"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="at"/>
+        <NamedIndividual IRI="Levi"/>
+        <NamedIndividual IRI="SanFrancisco"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="was"/>
+        <NamedIndividual IRI="SuperBowl"/>
+        <NamedIndividual IRI="football"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="would"/>
+        <NamedIndividual IRI="game"/>
+        <NamedIndividual IRI="SuperBowl"/>
+    </ObjectPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="at"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="was"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="would"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="at"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="GAME"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="would"/>
+        <Class IRI="GAME"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="at"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="GAME"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="would"/>
+        <Class IRI="GAME"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="DATE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="GAME"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="LOCATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="MISC"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="NUMBER"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="ORGANIZATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="PERSON"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="TEAM"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="realtedTo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0.2017-03-29T23:31:42Z) https://github.com/owlcs/owlapi/ -->
+
+

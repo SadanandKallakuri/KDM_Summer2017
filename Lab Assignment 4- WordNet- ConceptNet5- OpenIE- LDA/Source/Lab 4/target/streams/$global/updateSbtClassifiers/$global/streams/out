@@ -10,6 +10,7 @@
 [debug] == resolving dependencies sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sbt_2.10;1.0->org.scala-sbt#sbt;0.13.15 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.15 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.15 {default=[default(compile)]}
+[debug] no default cache defined: set to C:\Users\sadan\.ivy2\cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.15
 [debug] 	found org.scala-sbt#sbt;0.13.15 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -1778,9 +1779,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.15!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 5826ms :: artifacts dl 48ms
+[debug] :: resolution report :: resolve 8768ms :: artifacts dl 665ms
 [debug] 	report for sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sbt_2.10;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 4- WordNet- ConceptNet5- OpenIE- LDA\Source\Lab 4\target\resolution-cache\reports\sparkopenie_wordnet_lda-sparkopenie_wordnet_lda$sbt_2.10-default.xml
-[debug] 	resolve done (5826ms resolve - 48ms download)
+[debug] 	resolve done (8768ms resolve - 665ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2458,6 +2459,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#incremental-compiler;0.13.15!incremental-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.15!logic.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#main-settings;0.13.15!main-settings.jar(src)
-[debug] :: resolution report :: resolve 336ms :: artifacts dl 71ms
+[debug] :: resolution report :: resolve 2755ms :: artifacts dl 456ms
 [debug] 	report for sparkopenie_wordnet_lda#sparkopenie_wordnet_lda$sources_2.10;1.0 default produced in C:\Users\sadan\OneDrive\Documents\GitHub\KDM_Summer2017\Lab Assignment 4- WordNet- ConceptNet5- OpenIE- LDA\Source\Lab 4\target\resolution-cache\reports\sparkopenie_wordnet_lda-sparkopenie_wordnet_lda$sources_2.10-default.xml
-[debug] 	resolve done (336ms resolve - 71ms download)
+[debug] 	resolve done (2755ms resolve - 456ms download)

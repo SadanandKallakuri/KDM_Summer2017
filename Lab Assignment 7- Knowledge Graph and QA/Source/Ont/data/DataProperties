@@ -1,0 +1,3 @@
+realtedTo,MOTHER,string
+realtedTo,FATHER,string
+worksFor,OCCUPATION,string

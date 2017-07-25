@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.7.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.geronimo.specs/geronimo-javamail_1.4_spec/bundles/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.geronimo.specs/geronimo-javamail_1.4_spec/srcs/geronimo-javamail_1.4_spec-1.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

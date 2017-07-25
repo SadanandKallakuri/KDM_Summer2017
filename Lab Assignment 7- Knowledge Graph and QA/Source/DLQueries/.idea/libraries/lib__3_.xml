@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="lib (3)">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/change" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/expression" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/formats" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/io" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/model" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/model/axiomproviders" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/model/parameters" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/model/providers" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/profiles" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/profiles/violations" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/reasoner" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/search" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/util" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapi/vocab" />
+      <root url="file://$PROJECT_DIR$/lib/semanticweb/owlapitools/builders" />
+      <root url="file://$PROJECT_DIR$/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="q2query_2.12"
+		revision="1.0"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170718180229"/>
+	<dependencies>
+		<module organisation="org.apache.spark" name="spark-core_2.12">
+			<revision name="1.6.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="q2query_2.12" conf="provided" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

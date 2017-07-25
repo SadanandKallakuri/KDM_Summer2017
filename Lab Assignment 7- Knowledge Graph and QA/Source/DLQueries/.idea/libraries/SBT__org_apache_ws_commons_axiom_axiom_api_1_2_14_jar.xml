@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.ws.commons.axiom:axiom-api:1.2.14:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ws.commons.axiom/axiom-api/jars/axiom-api-1.2.14.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ws.commons.axiom/axiom-api/bundles/axiom-api-1.2.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.ws.commons.axiom/axiom-api/srcs/axiom-api-1.2.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
